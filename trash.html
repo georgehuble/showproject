@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="pages/index.css">
+  <title>BASK HOME</title>
+</head>
+<body class="page">
+<header class="header">
+  <nav class="menu" id="navbar">
+    <ul class="menu__content_left">
+      <li><a class="menu__content menu__about" href="index.html">Главная</a></li>
+      <li><div class="menu__content menu__catalog">О нас</div></li>
+      <li><a class="menu__content menu__delivery">Доставка</a></li>
+    </ul>
+    <ul class="menu__content_centre">
+      <li><a class="menu__content menu__logo" href="#">BASK HOME</a></li>
+    </ul>
+    <ul class="menu__content_right">
+      <li><a class="menu__content menu__reviews" href="catalog.html">Ассортимент</a></li>
+      <li><a class="menu__content menu__contacts" href="#contact">Контакты</a></li>
+      <li><div class="menu__content menu__content-shop">
+        <p class="menu__trash-number">2</p>
+        <a class="menu__trash" href="trash.html">
+          <img class="menu__trash-image" src="images/trash_header-white.svg" onmouseover="hover(this);" onmouseout="unhover(this)"></a></div></li>
+    </ul>
+  </nav>
+</header>
+<section class="trash">
+  <div class="trash__shopping">
+    <div class="trash__title">
+      Корзина покупок
+    </div>
+    <div class="trash__item">
+      <div class="trash__button">
+        <span class="trash__button-delete"></span>
+      </div>
+      <div class="trash__image-block">
+        <img class="trash__image" src="images/_DSC0790.jpg" alt="" />
+      </div>
+      <div class="trash__description">
+        <span class="trash__name">Наименование</span>
+        <span class="trash__size">Размер</span>
+        <span class="trash__color">Цвет</span>
+      </div>
+      <div class="trash__quantity">
+        <button class="trash__buttons trash__button-plus" id="plus" type="button" name="button">
+          <img class="plus" src="images/trash/plus.svg" alt="" />
+        </button>
+        <input id="inputElement" type="text" name="name" value="1">
+        <button class="trash__buttons trash__button-minus" id="minus" type="button" name="button">
+          <img class="minus" src="images/trash/minus.svg" alt="" />
+        </button>
+      </div>
+      <div class="trash__price">&#8381;549</div>
+    </div>
+    <div class="trash__total">
+      <p class="trash__total-price">&#8381;1549</p>
+      <button class="trash__button-formalization" type="button">Купить</button>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <img class="footer__image" src="images/feather-white.PNG">
+  <div class="footer__columns">
+    <div class="footer__column footer__column_content_copyright">
+      <p class="menu__logo">BASK HOME</p>
+      <a class="footer__author link" href="#">&copy; selesta, 2021</a>
+    </div>
+    <nav class="footer__column footer__column_content_info">
+      <h3 class="footer__column-heading">Политика обработки персональных данных</h3>
+    </nav>
+    <div class="footer__column_content_social">
+      <nav class="footer__column footer__column-binding">
+        <h3 class="footer__column-heading" id="contact">Связаться с нами</h3>
+        <div class="footer__column-social">
+          <ul class="footer__column-links">
+            <li>
+              <div class="footer__container">
+                <img src="images/phone.svg" alt="Значок звонка" class="footer__social-icon">
+                <a class="footer__column-link link" href="tel:+79312663425">+7 (931) 266-34-25
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="footer__container">
+                <img src="images/mail.svg" alt="Значок почты" class="footer__social-icon">
+                <a class="footer__column-link link" href="#">example@examle.com
+                </a>
+              </div>
+            </li>
+          </ul>
+          <h3 class="footer__column-heading" id="contact-social">Мы в социальных сетях</h3>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link link" href="#">
+              <img src="./images/telegram.svg" alt="Значок Telegram" class="footer__social-icon"></a>
+            </li>
+            <li><a class="footer__column-link link" href="#">
+              <img src="./images/instagram.svg" alt="Значок Instagram" class="footer__social-icon"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="footer__column footer__column-binding">
+        <h3 class="footer__column-heading" id="form">Оставить заявку</h3>
+        <div class="footer__column-social">
+          <ul class="footer__column-forms">
+            <li><input class="footer__input" type="text" placeholder="Имя">
+            </li>
+            <li><input class="footer__input" type="tel" placeholder="+7(111)1111-111">
+            </li>
+            <li><button class="footer-submit-button animation" type="submit">Отправить</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

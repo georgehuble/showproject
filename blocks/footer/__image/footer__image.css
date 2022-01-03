@@ -1,0 +1,9 @@
+.footer__image {
+  position: absolute;
+  width: 700px;
+  opacity: 0.03;
+  left: 100px;
+  transform: rotate(
+          45deg);
+  z-index: 1;
+}

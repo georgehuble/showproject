@@ -1,0 +1,13 @@
+.trash__button-formalization {
+  margin-right: 50px;
+  border: none;
+  color: #43484D;
+  background-color: inherit;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.trash__button-formalization:hover {
+  background-color: #E1E8EE;
+  cursor: pointer;
+}

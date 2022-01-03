@@ -1,0 +1,36 @@
+@keyframes background {
+  50% {
+    background: darkviolet;
+    box-shadow: 0 -140px 70px -120px mediumorchid inset,
+    0 -210px 70px -120px teal inset,
+    0 -280px 70px -120px plum inset;
+  }
+}
+
+.footer-submit-button {
+  color: #111111;
+  background: crimson;
+  box-shadow: 0 -150px 70px -120px teal inset,
+  0 -220px 70px -120px yellowgreen inset,
+  0 -280px 70px -120px gold inset;
+  animation: background 4s infinite alternate;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  width: 210px;
+  height: 50px;
+  padding: 0 15px;
+  display: block;
+  border: none;
+  margin-top: 20px;
+}
+
+.footer-submit-button:hover {
+  width: 212px;
+  height: 51px;
+  cursor: pointer;
+}
+
+
+
+

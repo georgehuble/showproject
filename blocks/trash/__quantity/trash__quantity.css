@@ -1,0 +1,16 @@
+.trash__quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+  box-sizing: border-box;
+}
+
+.trash__quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+  box-sizing: border-box;
+}

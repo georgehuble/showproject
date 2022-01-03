@@ -1,0 +1,4 @@
+.bed__image {
+  max-width: 60%;
+  object-fit: cover;
+}

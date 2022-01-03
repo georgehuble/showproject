@@ -1,0 +1,13 @@
+.bed__image_feather-second {
+  transform: rotate(100deg);
+  bottom: auto;
+  top: -200px;
+}
+
+.bed__image_feather-second:last-child {
+  top: auto;
+  bottom: -100px;
+  right: 0;
+  transform: rotate(
+          45deg);
+}

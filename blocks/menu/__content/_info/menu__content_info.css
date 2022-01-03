@@ -1,0 +1,24 @@
+.menu__content_info {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+  right: -20px;
+}
+
+.menu__content_info a {
+  padding: 15px;
+  margin: 0;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-style: none;
+  color: white;
+}
+
+.menu__content_info a:hover {
+  color: bisque;
+  cursor: pointer;
+}

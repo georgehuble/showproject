@@ -1,0 +1,18 @@
+.bed__image_feather-black {
+  position: absolute;
+  transform: rotate(
+          180deg);
+  width: 600px;
+  top: -80px;
+  left: 700px;
+  opacity: 0.1;
+}
+
+.bed__image_feather-black:last-child {
+  top: auto;
+  transform: rotate(
+          160deg);
+  bottom: -100px;
+  left: auto;
+  right: 0;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="pages/index.css">
+  <title>BASK HOME</title>
+</head>
+<body class="page">
+<header class="header">
+  <nav class="menu" id="navbar">
+    <ul class="menu__content_left">
+      <li><a class="menu__content menu__about" href="index.html">Главная</a></li>
+      <li><div class="menu__content menu__catalog">О нас</div></li>
+      <li><a class="menu__content menu__delivery">Доставка</a></li>
+    </ul>
+    <ul class="menu__content_centre">
+      <li><a class="menu__content menu__logo" href="#">BASK HOME</a></li>
+    </ul>
+    <ul class="menu__content_right">
+      <li><a class="menu__content menu__reviews" href="catalog.html">Ассортимент</a></li>
+      <li><a class="menu__content menu__contacts" href="#contact">Контакты</a></li>
+      <li>
+        <div class="menu__content menu__content-shop">
+        <p class="menu__trash-number">2</p>
+        <a class="menu__trash" href="trash.html">
+          <img class="menu__trash-image" src="images/trash_header-white.svg" onmouseover="hover(this);" onmouseout="unhover(this)">
+        </a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
+<section class="constructor">
+  <div class="constructor__container">
+    <div class="constructor__container-choice">
+      <h2 class="constructor__container-choice_title">Выбрать цвет</h2>
+      <div class="constructor__container-buttons">
+        <button type="button" class="constructor__container-choice_button" id="1-st"></button>
+        <button type="button" class="constructor__container-choice_button" id="2-nd"></button>
+        <button type="button" class="constructor__container-choice_button" id="3-rd"></button>
+        <button type="button" class="constructor__container-choice_button" id="4-th"></button>
+        <button type="button" class="constructor__container-choice_button" id="5-th"></button>
+      </div>
+      <div class="constructor__container-choice_image" id="choiceImage">
+      </div>
+    </div>
+    <div class="constructor__container-content">
+      <div class="constructor__product">
+        <h2 class="constructor__product_title">Наволочка</h2>
+        <div class="constructor__product_container">
+          <div>
+            <p class="constructor__product_subtitle">Размер</p>
+          </div>
+          <div class="trash__quantity constructor__quantity">
+            <button class="trash__buttons trash__button-plus" type="button" name="button">
+              <img class="plus" src="images/trash/plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="trash__buttons trash__button-minus" type="button" name="button">
+              <img class="minus" src="images/trash/minus.svg" alt="" />
+            </button>
+          </div>
+          <p class="constructor__product_subtitle">&#8381; Цена</p>
+        </div>
+      </div>
+      <div class="constructor__product">
+        <h2 class="constructor__product_title">Пододеяльник</h2>
+        <div class="constructor__product_container">
+          <div>
+            <p class="constructor__product_subtitle">Размер</p>
+          </div>
+          <div class="trash__quantity constructor__quantity">
+            <button class="trash__buttons trash__button-plus" type="button" name="button">
+              <img class="plus" src="images/trash/plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="trash__buttons trash__button-minus" type="button" name="button">
+              <img class="minus" src="images/trash/minus.svg" alt="" />
+            </button>
+          </div>
+          <p class="constructor__product_subtitle">&#8381; Цена</p>
+        </div>
+      </div>
+      <div class="constructor__product">
+        <h2 class="constructor__product_title">Простыня</h2>
+        <div class="constructor__product_container">
+          <div>
+            <p class="constructor__product_subtitle">Размер</p>
+          </div>
+          <div class="trash__quantity constructor__quantity">
+            <button class="trash__buttons trash__button-plus" type="button" name="button">
+              <img class="plus" src="images/trash/plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="trash__buttons trash__button-minus" type="button" name="button">
+              <img class="minus" src="images/trash/minus.svg" alt="" />
+            </button>
+          </div>
+          <p class="constructor__product_subtitle">&#8381; Цена</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <img class="footer__image" src="images/feather-white.PNG">
+  <div class="footer__columns">
+    <div class="footer__column footer__column_content_copyright">
+      <p class="menu__logo">BASK HOME</p>
+      <a class="footer__author link" href="#">&copy; selesta, 2021</a>
+    </div>
+    <nav class="footer__column footer__column_content_info">
+      <h3 class="footer__column-heading">Политика обработки персональных данных</h3>
+    </nav>
+    <div class="footer__column_content_social">
+      <nav class="footer__column footer__column-binding">
+        <h3 class="footer__column-heading" id="contact">Связаться с нами</h3>
+        <div class="footer__column-social">
+          <ul class="footer__column-links">
+            <li>
+              <div class="footer__container">
+                <img src="images/phone.svg" alt="Значок звонка" class="footer__social-icon">
+                <a class="footer__column-link link" href="tel:+79312663425">+7 (931) 266-34-25
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="footer__container">
+                <img src="images/mail.svg" alt="Значок почты" class="footer__social-icon">
+                <a class="footer__column-link link" href="#">example@examle.com
+                </a>
+              </div>
+            </li>
+          </ul>
+          <h3 class="footer__column-heading" id="contact-social">Мы в социальных сетях</h3>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link link" href="#">
+              <img src="./images/telegram.svg" alt="Значок Telegram" class="footer__social-icon"></a>
+            </li>
+            <li><a class="footer__column-link link" href="#">
+              <img src="./images/instagram.svg" alt="Значок Instagram" class="footer__social-icon"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="footer__column footer__column-binding">
+        <h3 class="footer__column-heading" id="form">Оставить заявку</h3>
+        <div class="footer__column-social">
+          <ul class="footer__column-forms">
+            <li><input class="footer__input" type="text" placeholder="Имя">
+            </li>
+            <li><input class="footer__input" type="tel" placeholder="+7(111)1111-111">
+            </li>
+            <li><button class="footer-submit-button animation" type="submit">Отправить</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

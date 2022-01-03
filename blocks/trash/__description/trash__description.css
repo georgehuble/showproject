@@ -1,0 +1,22 @@
+.trash__description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+  box-sizing: border-box;
+}
+
+.trash__description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+
+.trash__description span:first-child {
+  margin-bottom: 5px;
+}
+.trash__description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}

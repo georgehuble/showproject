@@ -1,0 +1,6 @@
+.trash__total {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid #E1E8EE;;
+}

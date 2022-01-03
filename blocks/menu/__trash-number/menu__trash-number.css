@@ -1,0 +1,15 @@
+.menu__trash-number {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  right: 0;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  background: red;
+}
+
+.menu__trash-number:empty {
+  display: none;
+}

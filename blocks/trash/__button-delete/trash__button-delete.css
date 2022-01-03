@@ -1,0 +1,8 @@
+.trash__button-delete {
+  display: inline-block;
+  Cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url("../../../images/trash/delete-icn.svg") no-repeat center;
+  box-sizing: border-box;
+}

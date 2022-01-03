@@ -1,0 +1,12 @@
+.constructor__container-choice_image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url("../../../../images/_DSC0650.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin: 10px;
+  border-radius: 10%;
+}

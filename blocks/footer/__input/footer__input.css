@@ -1,0 +1,14 @@
+.footer__input {
+  margin: 10px 0;
+  color: #000000;
+  border: 1px solid #00a9c0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 20px;
+}

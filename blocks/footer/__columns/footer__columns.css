@@ -1,0 +1,8 @@
+.footer__columns {
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}

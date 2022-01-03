@@ -1,0 +1,6 @@
+.constructor__container-choice {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  border-right: 1px solid #E1E8EE;
+}

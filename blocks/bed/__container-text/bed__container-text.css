@@ -1,0 +1,12 @@
+.bed__container-text {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 35%;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+.width {
+  max-width: 55%;
+}

@@ -1,0 +1,23 @@
+.bed__section {
+  height: 100%;
+  width: 25%;
+  float: left;
+  display: flex;
+  background-color: #1f1f1f;
+  color: white;
+  position: relative;
+}
+
+
+.color {
+  color: white;
+}
+
+.color:nth-child(2) {
+  color: white;
+}
+
+.color:nth-child(4) {
+  background-color: white;
+  color: black;
+}
